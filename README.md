@@ -2,7 +2,6 @@
 <html>
 <head>
 <title>Human Care Lab</title>
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
@@ -161,5 +160,4 @@ margin-top:40px;
 </footer>
 
 </body>
-
 </html>
