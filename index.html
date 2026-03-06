@@ -1,126 +1,198 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="description" content="Affordable Blood Test in Ahmedabad. CBC, Thyroid, Vitamin D, HbA1c, Lipid Profile. Home Sample Collection Available. Human Care Lab">
-
-<meta name="keywords" content="blood test near me, diagnostic lab Ahmedabad, CBC test Ahmedabad, thyroid test Ahmedabad">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Blood Test Near Me | Human Care Lab Ahmedabad</title>
-
-<title>Human Care Lab</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Affordable Blood Test in Ahmedabad. CBC, Thyroid, Vitamin D, HbA1c, Lipid Profile. Home Sample Collection Available. Human Care Lab">
+<meta name="keywords" content="blood test near me, diagnostic lab Ahmedabad, CBC test Ahmedabad, thyroid test Ahmedabad">
 
 <style>
-
+/* Body */
 body{
-font-family: Arial;
-margin:0;
-background:#f2fbff;
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f0f8ff;
 }
 
+/* Header */
 header{
-background:#1fa67a;
-color:white;
-padding:20px;
-text-align:center;
+    background:#1fa67a;
+    color:white;
+    padding:30px 20px;
+    text-align:center;
+}
+header h1{
+    margin:0;
+    font-size:36px;
+}
+header p{
+    font-size:18px;
 }
 
+/* Navigation */
 nav{
-background:#0d6efd;
-padding:10px;
-text-align:center;
+    background:#0d6efd;
+    padding:15px;
+    text-align:center;
 }
-
 nav a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-size:16px;
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-size:17px;
+}
+nav a:hover{
+    text-decoration:underline;
 }
 
+/* Hero section */
 .hero{
-background:white;
-padding:60px;
-text-align:center;
+    background:white;
+    padding:60px 20px;
+    text-align:center;
+}
+.hero h2{
+    font-size:32px;
+}
+.hero p{
+    font-size:18px;
+}
+.hero .btn{
+    background:#1fa67a;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:20px;
+    border-radius:8px;
 }
 
-.btn{
-background:#1fa67a;
-color:white;
-padding:12px 25px;
-text-decoration:none;
-display:inline-block;
-margin-top:15px;
-border-radius:5px;
-}
-
+/* Section */
 .section{
-padding:40px;
-text-align:center;
+    padding:50px 20px;
+    text-align:center;
 }
 
+/* Cards */
 .card{
-background:white;
-width:260px;
-display:inline-block;
-margin:12px;
-padding:20px;
-box-shadow:0 0 10px #ccc;
-border-radius:8px;
+    background:white;
+    width:280px;
+    display:inline-block;
+    margin:15px;
+    padding:25px 15px;
+    box-shadow:0 0 15px #ccc;
+    border-radius:12px;
+    vertical-align:top;
 }
-
+.card h3{
+    margin-top:0;
+}
 .old{
-text-decoration:line-through;
-color:red;
+    text-decoration:line-through;
+    color:red;
 }
-
 .new{
-color:green;
-font-weight:bold;
+    color:green;
+    font-weight:bold;
+    font-size:18px;
 }
 
+/* Booking Form */
+form input, form textarea{
+    width:80%;
+    padding:10px;
+    margin:8px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+form button{
+    background:#1fa67a;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+form button:hover{
+    background:#12855e;
+}
+
+/* Footer */
 footer{
-background:#0d6efd;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+footer p{
+    margin:5px 0;
 }
 
+/* Floating WhatsApp / Call */
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 5px 10px #999;
+    z-index:999;
+}
+.call-btn{
+    position:fixed;
+    bottom:80px;
+    right:20px;
+    background:#0d6efd;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 5px 10px #999;
+    z-index:999;
+}
+
+/* Responsive */
+@media screen and (max-width:768px){
+    .card, form input{
+        width:90%;
+    }
+}
 </style>
 
 </head>
-
 <body>
 
+<!-- Header -->
 <header>
-
 <h1>Human Care Lab</h1>
 <p>Affordable Blood Tests | 24 Hour Service | Home Collection Available</p>
-
 </header>
 
+<!-- Navigation -->
 <nav>
-
 <a href="#">Home</a>
-<a href="#">Tests</a>
-<a href="#">Packages</a>
-<a href="#">Contact</a>
-
+<a href="#tests">Tests</a>
+<a href="#packages">Packages</a>
+<a href="#booking">Contact</a>
 </nav>
 
+<!-- Hero Section -->
 <div class="hero">
-
 <h2>Book Your Blood Test Today</h2>
-
 <p>Reliable Diagnostic Testing with Affordable Prices</p>
-
-<a class="btn" href="https://wa.me/917779009369">Book on WhatsApp</a>
-
+<a class="btn" href="https://wa.me/917779009369?text=Hello%20Human%20Care%20Lab%2C%20I%20want%20to%20book%20a%20blood%20test">Book via WhatsApp</a>
 </div>
 
-<div class="section">
-
+<!-- Popular Tests -->
+<div class="section" id="tests">
 <h2>Popular Test Offers</h2>
 
 <div class="card">
@@ -173,8 +245,8 @@ margin-top:40px;
 
 </div>
 
-<div class="section">
-
+<!-- Health Packages -->
+<div class="section" id="packages">
 <h2>Health Packages</h2>
 
 <div class="card">
@@ -187,12 +259,6 @@ margin-top:40px;
 <p class="new">₹2499</p>
 </div>
 
-</div>
-
-<div class="section">
-
-<h2>Special Discounts</h2>
-
 <div class="card">
 <h3>Hormonal Tests</h3>
 <p class="new">20% Discount</p>
@@ -202,51 +268,62 @@ margin-top:40px;
 <h3>Special Tests</h3>
 <p class="new">20% Discount</p>
 </div>
-
 </div>
 
+<!-- Sanitization / Safety Section -->
 <div class="section">
+<h2>Your Safety is Our Priority</h2>
+<div class="card">100% sanitized equipment</div>
+<div class="card">Contactless home sample collection</div>
+<div class="card">Professional and trained staff</div>
+</div>
 
-<h2>Home Sample Collection</h2>
-<div class="section">
+<!-- Online Booking Form -->
+<div class="section" id="booking">
+<h2>Online Blood Test Booking</h2>
 
-<h2>Online Test Booking</h2>
-
-<form action="https://formsubmit.co/rahulrathod7779009369@gmail.com" method="POST">
+<form action="https://formsubmit.co/humancarelab20@gmail.com" method="POST">
 
 <input type="text" name="Name" placeholder="Your Name" required><br><br>
-
-<input type="tel" name="Phone" placeholder="Mobile Number" required><br><br>
-
-<input type="text" name="Test" placeholder="Test Name"><br><br>
-
+<input type="tel" name="Mobile" placeholder="Mobile Number" required><br><br>
+<input type="text" name="Test Required" placeholder="Which Test? (CBC / Thyroid / etc)" required><br><br>
 <input type="text" name="Address" placeholder="Home Address"><br><br>
 
-<button type="submit" class="btn">Book Test</button>
+<button type="submit">Book Test</button>
+
+<input type="hidden" name="_subject" value="New Blood Test Booking - Human Care Lab">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
 
 </form>
-
 </div>
+
+<!-- Home Sample Collection -->
+<div class="section">
+<h2>Home Sample Collection</h2>
 <p>Call or WhatsApp us to book home blood sample collection.</p>
-
 <a class="btn" href="https://wa.me/917779009369">WhatsApp Now</a>
-
 </div>
 
-<footer>
-
-<h3>Human Care Lab</h3>
-
-<p>📞 7779009369</p>
-
-<p>Ahmedabad, Gujarat</p>
+<!-- Google Map -->
+<div class="section">
+<h2>Our Location</h2>
 <iframe 
-src="https://www.google.com/maps?q=Ahmedabad&output=embed"
-width="100%" 
-height="300">
-</iframe>
+src="https://www.google.com/maps?q=Sector+VIII,+Nirnay+Nagar,+Ahmedabad,+Gujarat+382481&output=embed"
+width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<!-- Footer -->
+<footer>
+<h3>Human Care Lab</h3>
+<p>📞 7779009369</p>
+<p>Sector VIII, Nirnay Nagar, Ahmedabad, Gujarat 382481</p>
+<p>© 2026 Human Care Lab</p>
 </footer>
 
-</body>
+<!-- Floating Buttons -->
+<a class="whatsapp-btn" href="https://wa.me/917779009369?text=Hello%20Human%20Care%20Lab%2C%20I%20want%20to%20book%20a%20blood%20test">WhatsApp</a>
+<a class="call-btn" href="tel:+917779009369">Call Now</a>
 
+</body>
 </html>
